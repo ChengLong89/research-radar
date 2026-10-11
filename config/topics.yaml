@@ -1,0 +1,52 @@
+# Edit freely — each run reads this file before searching.
+
+language: zh   # digest language: zh or en
+max_items: 8   # top items per digest
+
+topics:
+  agent_finetuning:
+    weight: 3
+    keywords: [agent fine-tuning, tool-use SFT, agentic RL, GRPO agents, trajectory synthesis,
+               rejection sampling trajectories, verifiable rewards agents, orchestrator model, distillation agent]
+  tool_calling:
+    weight: 3
+    keywords: [function calling, tool calling reliability, multi-step tool use, planning agents,
+               agent failure analysis, hallucinated tool arguments]
+  enterprise_agents:
+    weight: 3
+    keywords: [ERP agent, enterprise agent benchmark, ERP-Bench, tau2-bench, BFCL, EnterpriseBench,
+               CRMArena, WorkArena, business process automation LLM]
+  quantization_inference:
+    weight: 2
+    keywords: [quantization agent tasks, KV cache quantization long context, GGUF AWQ GPTQ FP8,
+               speculative decoding, small model routing]
+  evaluation:
+    weight: 2
+    keywords: [LLM-as-judge, agent evaluation, benchmark contamination, regression testing LLM]
+
+sources:
+  - arXiv (cs.CL, cs.LG, cs.AI) — last 7 days
+  - Hugging Face papers / trending models
+  - Lab blogs: Anthropic, OpenAI, Google DeepMind, Meta AI, Microsoft Research, Qwen, DeepSeek, Mistral, Salesforce AI Research, ServiceNow Research
+  - Leaderboards: ERP-Bench (Harbor), tau2-bench, BFCL, EnterpriseBench
+
+watch_repos:   # report only notable changes (new algorithms, kernel fixes, breaking APIs)
+  - vllm-project/vllm
+  - huggingface/trl
+  - volcengine/verl
+  - hiyouga/LLaMA-Factory
+  - vllm-project/llm-compressor
+  - ggml-org/llama.cpp
+
+relevance_criteria: >
+  Prefer work with released code/data, results on agent or tool-calling benchmarks,
+  and methods practical for fine-tuning 7B–70B open models. Downrank pure surveys,
+  position papers and incremental leaderboard entries without method insight.
+
+competitors:   # public announcements only, bi-weekly
+  - SAP (Joule)
+  - Oracle (Fusion AI agents)
+  - Workday
+  - Salesforce (Agentforce)
+  - ServiceNow
+  - Microsoft Dynamics 365 (public announcements)
