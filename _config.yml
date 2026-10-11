@@ -1,0 +1,25 @@
+title: Research Radar
+description: 每周 Agent 微调、工具调用、量化与企业 Agent 评测研究简报
+baseurl: /research-radar
+url: https://chenglong89.github.io
+repo_url: https://github.com/ChengLong89/research-radar
+
+exclude:
+  - PROMPT.md
+  - README.md
+  - config/
+  - state/
+
+defaults:
+  - scope: { path: "digests" }
+    values: { layout: digest, kind: digest }
+  - scope: { path: "competitors" }
+    values: { layout: digest, kind: competitors }
+
+topic_labels:
+  agent_finetuning: Agent 微调
+  tool_calling: 工具调用
+  enterprise_agents: 企业 Agent
+  quantization_inference: 量化与推理
+  evaluation: 评估
+  frameworks: 框架更新

@@ -8,6 +8,8 @@ A weekly, automatically generated digest of public research and releases on:
 - Enterprise / ERP agent benchmarks (ERP-Bench, τ²-bench, BFCL, EnterpriseBench, …)
 - Releases of key open-source training and inference frameworks
 
+**Read it as a website: https://chenglong89.github.io/research-radar/**
+
 All content is drawn from public sources only (arXiv, Hugging Face, lab blogs, GitHub releases).
 
 ## Layout

@@ -8,7 +8,17 @@ You are generating the weekly Research Radar digest in this repository. Use publ
 3. Drop anything whose URL or arXiv ID is already in `state/seen_papers.json`.
 4. Score each remaining item 1–5 for relevance using the topic weights and `relevance_criteria`.
    Keep the top `max_items`.
-5. Write `digests/YYYY-MM-DD.md` (today's date, in the configured language) with:
+5. Write `digests/YYYY-MM-DD.md` (today's date, in the configured language). It MUST begin with
+   Jekyll front matter, because the GitHub Pages site builds its index from it:
+   ```
+   ---
+   title: "<一句话标题，概括本周最重要的进展 / one-line headline>"
+   date: YYYY-MM-DD
+   summary: "<本周要点的一句话版本，≤60 字 / ≤25 words>"
+   topics: [<topic keys from config/topics.yaml present this week, plus `frameworks` if there are framework updates>]
+   ---
+   ```
+   Do not repeat the title as an `#` heading in the body (the layout renders it). Body sections:
    - A 3-sentence "本周要点 / This week" summary at the top
    - For each item: title + link, source/date, relevance score, 2–3 sentence summary in your own words,
      and one line on "可借鉴之处 / What to borrow" for someone fine-tuning and optimizing enterprise agents
@@ -16,12 +26,14 @@ You are generating the weekly Research Radar digest in this repository. Use publ
    - If an item follows up earlier work already in `seen_papers.json`, say so and link the earlier digest
 6. Every second run (when the latest file in `competitors/` is ≥ 13 days old or missing), also write
    `competitors/YYYY-MM-DD.md`: public enterprise/ERP AI announcements from the companies in `competitors`.
+   Give it the same front matter (title, date, summary; `topics` optional). Never touch `competitors/index.md`.
 7. Append every new item to `state/seen_papers.json` as
    `{"id": "<arxiv id or url>", "title": "...", "date": "YYYY-MM-DD", "digest": "digests/YYYY-MM-DD.md", "topic": "..."}`.
 8. Update the index between `<!-- INDEX:START -->` and `<!-- INDEX:END -->` in `README.md`
    (newest first, one line per digest with its 本周要点 headline).
 9. Commit with message `digest: YYYY-MM-DD` and push to `main`.
-10. Send a short notification summarizing the top 3 items with a link to the digest file on GitHub.
+10. Send a short notification summarizing the top 3 items with a link to the web page
+    `https://chenglong89.github.io/research-radar/digests/YYYY-MM-DD.html` (allow a minute or two for Pages to build).
 
 Rules: paraphrase — never copy abstracts or paragraphs; quote at most a short phrase. Never include
 private, internal, or employer-confidential information. If a search fails, note it in the digest
