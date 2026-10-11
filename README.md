@@ -25,5 +25,5 @@ All content is drawn from public sources only (arXiv, Hugging Face, lab blogs, G
 ## Index
 
 <!-- INDEX:START -->
-_No digests yet._
+- [2026-10-11](digests/2026-10-11.md) — SAP Labs 用“仿真合成”造企业数据训练智能体，τ²-bench 航空域收益明显
 <!-- INDEX:END -->

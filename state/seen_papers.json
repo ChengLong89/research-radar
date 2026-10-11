@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "id": "2610.10549",
+    "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+    "date": "2026-10-11",
+    "digest": "digests/2026-10-11.md",
+    "topic": "enterprise_agents"
+  },
+  {
+    "id": "2610.02122",
+    "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+    "date": "2026-10-11",
+    "digest": "digests/2026-10-11.md",
+    "topic": "enterprise_agents"
+  },
+  {
+    "id": "2610.03315",
+    "title": "Lightweight, Rubric-Guided Trajectory Evaluation for Production AI Agents",
+    "date": "2026-10-11",
+    "digest": "digests/2026-10-11.md",
+    "topic": "evaluation"
+  },
+  {
+    "id": "2610.07780",
+    "title": "APEX: Speculate Smarter, Not Deeper",
+    "date": "2026-10-11",
+    "digest": "digests/2026-10-11.md",
+    "topic": "quantization_inference"
+  },
+  {
+    "id": "2610.12083",
+    "title": "All Verdicts are Not Equal: Rethinking LLM Judge Reliability",
+    "date": "2026-10-11",
+    "digest": "digests/2026-10-11.md",
+    "topic": "evaluation"
+  },
+  {
+    "id": "2610.11245",
+    "title": "Read What Matters: Query-Adaptive Quantization for KV Caches",
+    "date": "2026-10-11",
+    "digest": "digests/2026-10-11.md",
+    "topic": "quantization_inference"
+  },
+  {
+    "id": "2610.03027",
+    "title": "Tailoring the Quantization Space for 1-Bit KV Cache Compression",
+    "date": "2026-10-11",
+    "digest": "digests/2026-10-11.md",
+    "topic": "quantization_inference"
+  },
+  {
+    "id": "2610.01108",
+    "title": "AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines",
+    "date": "2026-10-11",
+    "digest": "digests/2026-10-11.md",
+    "topic": "quantization_inference"
+  },
+  {
+    "id": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+    "title": "vLLM v0.31.0",
+    "date": "2026-10-11",
+    "digest": "digests/2026-10-11.md",
+    "topic": "frameworks"
+  }
+]
