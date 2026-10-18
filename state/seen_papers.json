@@ -61,5 +61,68 @@
     "date": "2026-10-11",
     "digest": "digests/2026-10-11.md",
     "topic": "frameworks"
+  },
+  {
+    "id": "2610.21463",
+    "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents (SpecAgent)",
+    "date": "2026-10-18",
+    "digest": "digests/2026-10-18.md",
+    "topic": "tool_calling"
+  },
+  {
+    "id": "2610.04906",
+    "title": "Scaling Verifiable Environments for Long-horizon Work Agents (WorkForge)",
+    "date": "2026-10-18",
+    "digest": "digests/2026-10-18.md",
+    "topic": "agent_finetuning"
+  },
+  {
+    "id": "2610.19789",
+    "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+    "date": "2026-10-18",
+    "digest": "digests/2026-10-18.md",
+    "topic": "agent_finetuning"
+  },
+  {
+    "id": "2610.18868",
+    "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+    "date": "2026-10-18",
+    "digest": "digests/2026-10-18.md",
+    "topic": "agent_finetuning"
+  },
+  {
+    "id": "2610.14346",
+    "title": "Evaluating LLMs as Agentic Workflow Executors in Real-World Customer Support Skills",
+    "date": "2026-10-18",
+    "digest": "digests/2026-10-18.md",
+    "topic": "enterprise_agents"
+  },
+  {
+    "id": "2610.13889",
+    "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+    "date": "2026-10-18",
+    "digest": "digests/2026-10-18.md",
+    "topic": "tool_calling"
+  },
+  {
+    "id": "2610.09624",
+    "title": "How Do Agentic LLMs Decide to Call Tools? A Tool-Call Vector Shaped by Suppression",
+    "date": "2026-10-18",
+    "digest": "digests/2026-10-18.md",
+    "topic": "tool_calling"
+  },
+  {
+    "id": "2610.19345",
+    "title": "When Is Smaller Greener? Right-Sizing Language Models for Agentic AI",
+    "date": "2026-10-18",
+    "digest": "digests/2026-10-18.md",
+    "topic": "quantization_inference"
+  },
+  {
+    "id": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "title": "vLLM v0.32.0",
+    "date": "2026-10-18",
+    "digest": "digests/2026-10-18.md",
+    "topic": "frameworks"
   }
 ]
