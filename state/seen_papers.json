@@ -124,5 +124,82 @@
     "date": "2026-10-18",
     "digest": "digests/2026-10-18.md",
     "topic": "frameworks"
+  },
+  {
+    "id": "2610.24294",
+    "title": "Not Every User Says It All: Training Tool-Using Agents Beyond Ideal Simulated Users",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "agent_finetuning"
+  },
+  {
+    "id": "2610.23342",
+    "title": "Robust Function Calling for LLM Agents Under Interface Drift",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "tool_calling"
+  },
+  {
+    "id": "2610.29458",
+    "title": "Harness Scaling for Generalizable Agentic Reinforcement Learning",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "agent_finetuning"
+  },
+  {
+    "id": "2610.28577",
+    "title": "Cache Engineering for Agents",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "quantization_inference"
+  },
+  {
+    "id": "2610.27234",
+    "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "enterprise_agents"
+  },
+  {
+    "id": "2610.24628",
+    "title": "Muse Glimmer 30B: An On-Device Agentic Model",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "agent_finetuning"
+  },
+  {
+    "id": "2610.28388",
+    "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "agent_finetuning"
+  },
+  {
+    "id": "2610.28886",
+    "title": "SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "evaluation"
+  },
+  {
+    "id": "https://github.com/huggingface/trl/releases/tag/v1.16.0",
+    "title": "TRL v1.16.0",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "frameworks"
+  },
+  {
+    "id": "https://github.com/huggingface/trl/releases/tag/v1.15.0",
+    "title": "TRL v1.15.0",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "frameworks"
+  },
+  {
+    "id": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0",
+    "title": "llama.cpp v0.7.0",
+    "date": "2026-10-25",
+    "digest": "digests/2026-10-25.md",
+    "topic": "frameworks"
   }
 ]
