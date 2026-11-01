@@ -201,5 +201,82 @@
     "date": "2026-10-25",
     "digest": "digests/2026-10-25.md",
     "topic": "frameworks"
+  },
+  {
+    "id": "2610.33568",
+    "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "agent_finetuning"
+  },
+  {
+    "id": "2610.32555",
+    "title": "Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "tool_calling"
+  },
+  {
+    "id": "2610.32004",
+    "title": "CRM-Agent-Bench: Benchmarking Tool-Using Agents in Stateful Enterprise Environments",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "enterprise_agents"
+  },
+  {
+    "id": "2610.25954",
+    "title": "CXBench: A Benchmark for Process-Compliant LLM Agents in Regulated Customer-Experience Workflows",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "enterprise_agents"
+  },
+  {
+    "id": "2610.32648",
+    "title": "StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "tool_calling"
+  },
+  {
+    "id": "2610.38391",
+    "title": "SCOPE: Selective Critical-Step On-Policy Self-Distillation for Agentic Reinforcement Learning",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "agent_finetuning"
+  },
+  {
+    "id": "2610.32417",
+    "title": "Measuring the Energy Cost of Completing Tasks with Quantized Language-Model Agents",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "quantization_inference"
+  },
+  {
+    "id": "2610.23707",
+    "title": "Tool Recommendation for Multi-Step Agents: Finding Every Tool a Task Needs",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "tool_calling"
+  },
+  {
+    "id": "https://github.com/huggingface/trl/releases/tag/v1.17.0",
+    "title": "TRL v1.17.0",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "frameworks"
+  },
+  {
+    "id": "https://github.com/huggingface/trl/releases/tag/v1.17.1",
+    "title": "TRL v1.17.1",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "frameworks"
+  },
+  {
+    "id": "https://github.com/vllm-project/llm-compressor/releases/tag/0.15.0",
+    "title": "llm-compressor 0.15.0",
+    "date": "2026-11-01",
+    "digest": "digests/2026-11-01.md",
+    "topic": "frameworks"
   }
 ]
